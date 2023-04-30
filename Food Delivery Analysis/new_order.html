@@ -10,22 +10,22 @@
         
         <h4>ID</h4>
         <div class="name">
-          <input type="ID" name="ID" id="ID" placeholder="Order ID" />          
+          <input type="text" name="ID" id="ID" placeholder="Order ID" />          
         </div>
 
-        <h4>Delivery_Person_ID</h4>
+        <h4>Delivery Person ID</h4>
         <div class="name">
-          <input type="Delivery_Person_ID:" name="Delivery_Person_ID:" id="Delivery_Person_ID:" placeholder="Delivery Person ID" />          
+          <input type="text" name="Delivery_Person_ID:" id="Delivery_Person_ID:" placeholder="Delivery Person ID" />          
         </div>
         
-        <h4>Delivery_person_Ratings</h4>
+        <h4>Delivery person Age</h4>
         <div class="name">
-          <input type="Delivery_person_Ratings:" name="Delivery_person_Ratings:" id="Delivery_person_Ratings:" placeholder="Delivery_person_Ratings" />          
+          <input type="Delivery_person_Age" name="Delivery_person_Age" id="Delivery_person_Age" placeholder="Delivery person Age" />          
         </div>
 
-        <h4>Delivery_person_Ratings</h4>
+        <h4>Delivery person Ratings</h4>
         <div class="name">
-          <input type="Delivery_person_Ratings:" name="Delivery_person_Ratings:" id="Delivery_person_Ratings:" placeholder="Delivery_person_Ratings" />          
+          <input type="Delivery_person_Ratings:" name="Delivery_person_Ratings:" id="Delivery_person_Ratings:" placeholder="Delivery person Ratings" />          
         </div>
 
 
@@ -48,7 +48,49 @@
           <option value="Medium">Sandstorms</option>
           <option value="Low">Low</option>
         </select>
+
+        <h4>Type_of_order<span>*</span></h4>
+        <select id='Type_of_order' name="Type_of_order"> 
+          <option class="disabled" value="otder type" disabled selected>*Please Select*</option>
+          <option value="Snack">Snack</option>
+          <option value="Meal">Meal</option>
+          <option value="Drinks">Drinks</option>
+          <option value="Buffet">Buffet</option>
+        </select>
+
+        <h4>Type_of_vehicle<span>*</span></h4>
+        <select id='Type_of_vehicle' name="Type_of_vehicle"> 
+          <option class="disabled" value="Type of vehicle" disabled selected>*Please Select*</option>
+          <option value="motor_cycle">motor cycle</option>
+          <option value="scooter">scooter</option>
+          <option value="electric_Scooter">electric_Scooter</option>
+        </select>
+
         
+        <h4>Multiple Deliveries<span>*</span></h4>
+        <select id='multiple_deliveries' name="multiple_deliveries"> 
+          <option class="disabled" value="Type of vehicle" disabled selected>*Please Select*</option>
+          <option value="0">0</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+        </select>
+
+        <h4>Festival<span>*</span></h4>
+        <select id='Festival' name="Festival"> 
+          <option class="disabled" value="Festival" disabled selected>*Please Select*</option>
+          <option value="Yes">Yes</option>
+          <option value="No">No</option>
+        </select>
+
+        <h4>City<span>*</span></h4>
+        <select id='City' name="City"> 
+          <option class="disabled" value="Festival" disabled selected>*Please Select*</option>
+          <option value="Metropolitian">Metropolitian</option>
+          <option value="Urban">Urban</option>
+          <option value="Semi-Urban">Semi-Urban</option>
+        </select>
+
         <h4>Day Visited<span>*</span></h4>
         <div class="day-visited">
           <input type="date" name="dayvisited" required/>
